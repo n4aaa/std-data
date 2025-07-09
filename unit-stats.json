@@ -7,15 +7,11 @@
     "Range": 10,
     "Damage": 15,
     "Cooldown": 1,
-    "TowerStats": {
-      "Damage": "20-3000",
-      "Cooldown": "1-0.001",
-      "Range": "10-15"
-    },
+    "TowerStats": { "Damage": "20-30", "Cooldown": "1-0.75", "Range": "10-15" },
     "Upgrades": [
-      { "Price": 0, "Damage": 20, "Cooldown": 1, "Range": 10 },
-      { "Price": 250, "Damage": 25, "Cooldown": 0.9, "Range": 12 },
-      { "Price": 400, "Damage": 3000, "Cooldown": 0.001, "Range": 15 }
+      { "Price": 0, "Damage": 20, "Range": 10, "Cooldown": 1 },
+      { "Price": 250, "Damage": 25, "Range": 12.5, "Cooldown": 0.88 },
+      { "Price": 400, "Damage": 30, "Range": 15, "Cooldown": 0.75 }
     ]
   },
   "Chica": {
@@ -26,14 +22,11 @@
     "Damage": 25,
     "Range": 10,
     "Cooldown": 2,
-    "TowerStats": {
-      "Damage": "25-30",
-      "Cooldown": "2-1.5",
-      "Range": "10-14"
-    },
+    "TowerStats": { "Damage": "25-30", "Cooldown": "2-1.5", "Range": "10-14" },
     "Upgrades": [
-      { "Price": 0, "Damage": 25, "Cooldown": 2, "Range": 10 },
-      { "Price": 350, "Damage": 30, "Cooldown": 1.5, "Range": 14 }
+      { "Price": 0, "Damage": 25, "Range": 10, "Cooldown": 2 },
+      { "Price": 400, "Damage": 27.5, "Range": 12, "Cooldown": 1.75 },
+      { "Price": 600, "Damage": 30, "Range": 14, "Cooldown": 1.5 }
     ]
   },
   "Foxy": {
@@ -45,14 +38,11 @@
     "Range": 7,
     "Cooldown": 1,
     "AnimationOffset": 0.4,
-    "TowerStats": {
-      "Damage": "30-50",
-      "Cooldown": "1-0.75",
-      "Range": "7-10"
-    },
+    "TowerStats": { "Damage": "30-50", "Cooldown": "1-0.75", "Range": "7-10" },
     "Upgrades": [
-      { "Price": 0, "Damage": 30, "Cooldown": 1, "Range": 7 },
-      { "Price": 450, "Damage": 50, "Cooldown": 0.75, "Range": 10 }
+      { "Price": 0, "Damage": 30, "Range": 7, "Cooldown": 1 },
+      { "Price": 500, "Damage": 40, "Range": 8.5, "Cooldown": 0.88 },
+      { "Price": 750, "Damage": 50, "Range": 10, "Cooldown": 0.75 }
     ]
   },
   "Bonnie": {
@@ -63,14 +53,11 @@
     "Damage": 10,
     "Range": 18,
     "Cooldown": 0.05,
-    "TowerStats": {
-      "Damage": "10-25",
-      "Cooldown": "0.05",
-      "Range": "18-25"
-    },
+    "TowerStats": { "Damage": "10-25", "Cooldown": "0.05", "Range": "18-25" },
     "Upgrades": [
-      { "Price": 0, "Damage": 10, "Cooldown": 0.05, "Range": 18 },
-      { "Price": 5000, "Damage": 25, "Cooldown": 0.05, "Range": 25 }
+      { "Price": 0, "Damage": 10, "Range": 18, "Cooldown": 0.05 },
+      { "Price": 5000, "Damage": 17.5, "Range": 21.5, "Cooldown": 0.05 },
+      { "Price": 8000, "Damage": 25, "Range": 25, "Cooldown": 0.05 }
     ]
   },
   "Withered Chica": {
@@ -81,14 +68,11 @@
     "Damage": 50,
     "Range": 10,
     "Cooldown": 1,
-    "TowerStats": {
-      "Damage": "50-125",
-      "Cooldown": "1-0.9",
-      "Range": "10-15"
-    },
+    "TowerStats": { "Damage": "50-125", "Cooldown": "1-0.9", "Range": "10-15" },
     "Upgrades": [
-      { "Price": 0, "Damage": 50, "Cooldown": 1, "Range": 10 },
-      { "Price": 600, "Damage": 125, "Cooldown": 0.9, "Range": 15 }
+      { "Price": 0, "Damage": 50, "Range": 10, "Cooldown": 1 },
+      { "Price": 650, "Damage": 87.5, "Range": 12.5, "Cooldown": 0.95 },
+      { "Price": 900, "Damage": 125, "Range": 15, "Cooldown": 0.9 }
     ]
   },
   "Withered Foxy": {
@@ -100,14 +84,11 @@
     "Range": 15,
     "Cooldown": 1,
     "AnimationOffset": 0.8,
-    "TowerStats": {
-      "Damage": "50-150",
-      "Cooldown": "1-0.75",
-      "Range": "15-20"
-    },
+    "TowerStats": { "Damage": "50-150", "Cooldown": "1-0.75", "Range": "15-20" },
     "Upgrades": [
-      { "Price": 0, "Damage": 50, "Cooldown": 1, "Range": 15 },
-      { "Price": 1000, "Damage": 150, "Cooldown": 0.75, "Range": 20 }
+      { "Price": 0, "Damage": 50, "Range": 15, "Cooldown": 1 },
+      { "Price": 1000, "Damage": 100, "Range": 17.5, "Cooldown": 0.88 },
+      { "Price": 1500, "Damage": 150, "Range": 20, "Cooldown": 0.75 }
     ]
   },
   "Withered Freddy": {
@@ -118,14 +99,11 @@
     "Damage": 14,
     "Range": 15,
     "Cooldown": 0.05,
-    "TowerStats": {
-      "Damage": "14-30",
-      "Cooldown": "0.05",
-      "Range": "15-20"
-    },
+    "TowerStats": { "Damage": "14-30", "Cooldown": "0.05", "Range": "15-20" },
     "Upgrades": [
-      { "Price": 0, "Damage": 14, "Cooldown": 0.05, "Range": 15 },
-      { "Price": 3500, "Damage": 30, "Cooldown": 0.05, "Range": 20 }
+      { "Price": 0, "Damage": 14, "Range": 15, "Cooldown": 0.05 },
+      { "Price": 3500, "Damage": 22, "Range": 17.5, "Cooldown": 0.05 },
+      { "Price": 5000, "Damage": 30, "Range": 20, "Cooldown": 0.05 }
     ]
   },
   "Withered Bonnie": {
@@ -136,14 +114,11 @@
     "Damage": 25,
     "Range": 22,
     "Cooldown": 0.05,
-    "TowerStats": {
-      "Damage": "25-50",
-      "Cooldown": "0.05",
-      "Range": "22-35"
-    },
+    "TowerStats": { "Damage": "25-50", "Cooldown": "0.05", "Range": "22-35" },
     "Upgrades": [
-      { "Price": 0, "Damage": 25, "Cooldown": 0.05, "Range": 22 },
-      { "Price": 15000, "Damage": 50, "Cooldown": 0.05, "Range": 35 }
+      { "Price": 0, "Damage": 25, "Range": 22, "Cooldown": 0.05 },
+      { "Price": 15000, "Damage": 37.5, "Range": 28.5, "Cooldown": 0.05 },
+      { "Price": 25000, "Damage": 50, "Range": 35, "Cooldown": 0.05 }
     ]
   },
   "Shadow Bonnie": {
@@ -154,14 +129,511 @@
     "Damage": 30,
     "Range": 10,
     "Cooldown": 0.05,
-    "TowerStats": {
-      "Damage": "30-65",
-      "Cooldown": "0.05",
-      "Range": "10-20"
-    },
+    "TowerStats": { "Damage": "30-65", "Cooldown": "0.05", "Range": "10-20" },
     "Upgrades": [
-      { "Price": 0, "Damage": 30, "Cooldown": 0.05, "Range": 10 },
-      { "Price": 20000, "Damage": 65, "Cooldown": 0.05, "Range": 20 }
+      { "Price": 0, "Damage": 30, "Range": 10, "Cooldown": 0.05 },
+      { "Price": 20000, "Damage": 47.5, "Range": 15, "Cooldown": 0.05 },
+      { "Price": 35000, "Damage": 65, "Range": 20, "Cooldown": 0.05 }
+    ]
+  },
+  "Toy Bonnie": {
+    "Type": "Continuous",
+    "Rarity": "Epic",
+    "Image": "rbxassetid://16780983603",
+    "PlacePrice": 1000,
+    "Damage": 50,
+    "Range": 15,
+    "Cooldown": 1,
+    "AnimationOffset": -0.4,
+    "TowerStats": { "Damage": "40-75", "Cooldown": "1-0.75", "Range": "12-20" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 40, "Range": 12, "Cooldown": 1 },
+      { "Price": 800, "Damage": 57.5, "Range": 16, "Cooldown": 0.88 },
+      { "Price": 1200, "Damage": 75, "Range": 20, "Cooldown": 0.75 }
+    ]
+  },
+  "Toy Freddy": {
+    "Type": "Single",
+    "Rarity": "Rare",
+    "Image": "rbxassetid://16781095520",
+    "PlacePrice": 800,
+    "Damage": 40,
+    "Range": 10,
+    "Cooldown": 2,
+    "TowerStats": { "Damage": "40-100", "Cooldown": "2-1.5", "Range": "10-15" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 40, "Range": 10, "Cooldown": 2 },
+      { "Price": 600, "Damage": 70, "Range": 12.5, "Cooldown": 1.75 },
+      { "Price": 900, "Damage": 100, "Range": 15, "Cooldown": 1.5 }
+    ]
+  },
+  "Toy Chica": {
+    "Type": "Explosion",
+    "Rarity": "Epic",
+    "Image": "rbxassetid://16781017510",
+    "PlacePrice": 1250,
+    "Damage": 100,
+    "Range": 12,
+    "Cooldown": 3,
+    "AnimationOffset": -0.5,
+    "TowerStats": { "Damage": "100-150", "Cooldown": "3-1.5", "Range": "12-17" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 100, "Range": 12, "Cooldown": 3 },
+      { "Price": 1000, "Damage": 125, "Range": 14.5, "Cooldown": 2.25 },
+      { "Price": 1500, "Damage": 150, "Range": 17, "Cooldown": 1.5 }
+    ]
+  },
+  "Mangle": {
+    "Type": "Explosion",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://16781119726",
+    "PlacePrice": 12500,
+    "Damage": 100,
+    "Range": 10,
+    "Cooldown": 1,
+    "AnimationOffset": -0.7,
+    "TowerStats": { "Damage": "100-250", "Cooldown": "1.5-0.75", "Range": "15-20" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 100, "Range": 15, "Cooldown": 1.5 },
+      { "Price": 10000, "Damage": 175, "Range": 17.5, "Cooldown": 1.13 },
+      { "Price": 15000, "Damage": 250, "Range": 20, "Cooldown": 0.75 }
+    ]
+  },
+  "Shadow Freddy": {
+    "Type": "AOE",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://17270065249",
+    "PlacePrice": 15000,
+    "Damage": 20,
+    "Range": 14,
+    "Cooldown": 0.05,
+    "TowerStats": { "Damage": "10-18", "Cooldown": "0.05", "Range": "12-18" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 10, "Range": 12, "Cooldown": 0.05 },
+      { "Price": 12000, "Damage": 14, "Range": 15, "Cooldown": 0.05 },
+      { "Price": 18000, "Damage": 18, "Range": 18, "Cooldown": 0.05 }
+    ]
+  },
+  "Balloon Boy": {
+    "Type": "Explosion",
+    "Rarity": "Mythic",
+    "Image": "rbxassetid://16781077553",
+    "PlacePrice": 5000,
+    "Damage": 200,
+    "Range": 12,
+    "Cooldown": 5,
+    "AnimationOffset": -9,
+    "TowerStats": { "Damage": "200-350", "Cooldown": "5-4", "Range": "12-25" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 200, "Range": 12, "Cooldown": 5 },
+      { "Price": 3500, "Damage": 275, "Range": 18.5, "Cooldown": 4.5 },
+      { "Price": 5000, "Damage": 350, "Range": 25, "Cooldown": 4 }
+    ]
+  },
+  "Withered Golden Freddy": {
+    "Type": "Single",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://16781122207",
+    "PlacePrice": 3000,
+    "Damage": 75,
+    "Range": 15,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "300-750", "Cooldown": "1.5-1", "Range": "15-20" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 300, "Range": 15, "Cooldown": 1.5 },
+      { "Price": 2500, "Damage": 525, "Range": 17.5, "Cooldown": 1.25 },
+      { "Price": 4000, "Damage": 750, "Range": 20, "Cooldown": 1 }
+    ]
+  },
+  "Golden Freddy": {
+    "Type": "Single",
+    "Rarity": "Mythic",
+    "Image": "rbxassetid://17629034232",
+    "PlacePrice": 4000,
+    "Damage": 75,
+    "Range": 15,
+    "Cooldown": 1,
+    "AnimationOffset": -1.2,
+    "TowerStats": { "Damage": "125-250", "Cooldown": "1.5-1", "Range": "15-20" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 125, "Range": 15, "Cooldown": 1.5 },
+      { "Price": 3000, "Damage": 187.5, "Range": 17.5, "Cooldown": 1.25 },
+      { "Price": 4500, "Damage": 250, "Range": 20, "Cooldown": 1 }
+    ]
+  },
+  "Puppet": {
+    "Type": "Pierce",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://17802016570",
+    "PlacePrice": 10000,
+    "Damage": 300,
+    "Range": 25,
+    "Cooldown": 10,
+    "TowerStats": { "Damage": "500-1250", "Cooldown": "10-7", "Range": "25-35" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 500, "Range": 25, "Cooldown": 10 },
+      { "Price": 8000, "Damage": 875, "Range": 30, "Cooldown": 8.5 },
+      { "Price": 12000, "Damage": 1250, "Range": 35, "Cooldown": 7 }
+    ]
+  },
+  "Endo": {
+    "Type": "Single",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://17851638702",
+    "PlacePrice": 1000,
+    "Damage": 15,
+    "Range": 10,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "0", "Cooldown": "0", "Range": "10-20", "DamageBoost": "1-1.24" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 0, "Range": 10, "Cooldown": 0, "DamageBoost": 1 },
+      { "Price": 800, "Damage": 0, "Range": 15, "Cooldown": 0, "DamageBoost": 1.12 },
+      { "Price": 1200, "Damage": 0, "Range": 20, "Cooldown": 0, "DamageBoost": 1.24 }
+    ]
+  },
+  "Endo 02": {
+    "Type": "Single",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://17690383931",
+    "PlacePrice": 600,
+    "Damage": 30,
+    "Range": 15,
+    "Cooldown": 0.3,
+    "TowerStats": { "Damage": "30-60", "Cooldown": "0.3", "Range": "15-25" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 30, "Range": 15, "Cooldown": 0.3 },
+      { "Price": 500, "Damage": 45, "Range": 20, "Cooldown": 0.3 },
+      { "Price": 750, "Damage": 60, "Range": 25, "Cooldown": 0.3 }
+    ]
+  },
+  "Plane Boy": {
+    "Type": "Continuous",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://17689713814",
+    "PlacePrice": 20000,
+    "Damage": 30,
+    "Range": 25,
+    "Cooldown": 0.05,
+    "TowerStats": { "Damage": "30-60", "Cooldown": "0.05", "Range": "25-40" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 30, "Range": 25, "Cooldown": 0.05 },
+      { "Price": 15000, "Damage": 45, "Range": 32.5, "Cooldown": 0.05 },
+      { "Price": 25000, "Damage": 60, "Range": 40, "Cooldown": 0.05 }
+    ]
+  },
+  "Rockin Bonnie": {
+    "Type": "AOE",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://17689695988",
+    "PlacePrice": 500,
+    "Damage": 4,
+    "Range": 15,
+    "Cooldown": 0.75,
+    "TowerStats": { "Damage": "5-14", "Cooldown": "0.75", "Range": "15-20" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 5, "Range": 15, "Cooldown": 0.75 },
+      { "Price": 400, "Damage": 9.5, "Range": 17.5, "Cooldown": 0.75 },
+      { "Price": 600, "Damage": 14, "Range": 20, "Cooldown": 0.75 }
+    ]
+  },
+  "Pirate Withered Foxy": {
+    "Type": "Single",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://17851205149",
+    "PlacePrice": 500,
+    "Damage": 50,
+    "Range": 15,
+    "Cooldown": 0.75,
+    "TowerStats": { "Damage": "25-50", "Cooldown": "0.5-0.3", "Range": "15-20" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 25, "Range": 15, "Cooldown": 0.5 },
+      { "Price": 400, "Damage": 37.5, "Range": 17.5, "Cooldown": 0.4 },
+      { "Price": 600, "Damage": 50, "Range": 20, "Cooldown": 0.3 }
+    ]
+  },
+  "Marionette's Puppeteer": {
+    "Type": "AOE",
+    "Rarity": "Nightmare",
+    "Image": "rbxassetid://18151575297",
+    "PlacePrice": 10000,
+    "Damage": 400,
+    "Range": 15,
+    "Cooldown": 2,
+    "TowerStats": { "Damage": "400-1200", "Cooldown": "2-1.5", "Range": "15-21" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 400, "Range": 15, "Cooldown": 2 },
+      { "Price": 8000, "Damage": 800, "Range": 18, "Cooldown": 1.75 },
+      { "Price": 12000, "Damage": 1200, "Range": 21, "Cooldown": 1.5 }
+    ]
+  },
+  "Blighted Endo Freddy": {
+    "Type": "AOE",
+    "Rarity": "Nightmare",
+    "Image": "rbxassetid://18151573285",
+    "PlacePrice": 20000,
+    "Damage": 15,
+    "Range": 15,
+    "Cooldown": 0.05,
+    "TowerStats": { "Damage": "15-40", "Cooldown": "0.05", "Range": "15-25" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 15, "Range": 15, "Cooldown": 0.05 },
+      { "Price": 15000, "Damage": 27.5, "Range": 20, "Cooldown": 0.05 },
+      { "Price": 25000, "Damage": 40, "Range": 25, "Cooldown": 0.05 }
+    ]
+  },
+  "Baker Toy Chica": {
+    "Type": "Explosion",
+    "Rarity": "Epic",
+    "Image": "rbxassetid://18161347460",
+    "PlacePrice": 800,
+    "Damage": 30,
+    "Range": 15,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "40-75", "Cooldown": "1-0.8", "Range": "15-25" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 40, "Range": 15, "Cooldown": 1 },
+      { "Price": 600, "Damage": 57.5, "Range": 20, "Cooldown": 0.9 },
+      { "Price": 900, "Damage": 75, "Range": 25, "Cooldown": 0.8 }
+    ]
+  },
+  "Summer Toy Bonnie": {
+    "Type": "Slow",
+    "Rarity": "Rare",
+    "Image": "rbxassetid://18255590026",
+    "PlacePrice": 800,
+    "Damage": 20,
+    "Range": 15,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "20-30", "Cooldown": "1", "Range": "15-18" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 20, "Range": 15, "Cooldown": 1 },
+      { "Price": 600, "Damage": 25, "Range": 16.5, "Cooldown": 1 },
+      { "Price": 900, "Damage": 30, "Range": 18, "Cooldown": 1 }
+    ]
+  },
+  "Coco Boy": {
+    "Type": "Explosion",
+    "Rarity": "Mythic",
+    "Image": "rbxassetid://18256042312",
+    "PlacePrice": 6000,
+    "Damage": 225,
+    "Range": 12,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "225-400", "Cooldown": "4-3", "Range": "12-25" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 225, "Range": 12, "Cooldown": 4 },
+      { "Price": 4500, "Damage": 312.5, "Range": 18.5, "Cooldown": 3.5 },
+      { "Price": 6500, "Damage": 400, "Range": 25, "Cooldown": 3 }
+    ]
+  },
+  "Vendor Toy Chica": {
+    "Type": "Explosion",
+    "Rarity": "Epic",
+    "Image": "rbxassetid://18256363652",
+    "PlacePrice": 1000,
+    "Damage": 200,
+    "Range": 15,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "200-300", "Cooldown": "5-3", "Range": "17-25" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 200, "Range": 17, "Cooldown": 5 },
+      { "Price": 800, "Damage": 250, "Range": 21, "Cooldown": 4 },
+      { "Price": 1200, "Damage": 300, "Range": 25, "Cooldown": 3 }
+    ]
+  },
+  "Seven Seas Foxy": {
+    "Type": "Pierce",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18255813345",
+    "PlacePrice": 7000,
+    "Damage": 30,
+    "Range": 15,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "150-400", "Cooldown": "3-2", "Range": "25-30" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 150, "Range": 25, "Cooldown": 3 },
+      { "Price": 5500, "Damage": 275, "Range": 27.5, "Cooldown": 2.5 },
+      { "Price": 8000, "Damage": 400, "Range": 30, "Cooldown": 2 }
+    ]
+  },
+  "Algae FredBear": {
+    "Type": "Single",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18255264349",
+    "PlacePrice": 3000,
+    "Damage": 150,
+    "Range": 15,
+    "Cooldown": 2,
+    "TowerStats": { "Damage": "250-650", "Cooldown": "2-1", "Range": "15-25" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 250, "Range": 15, "Cooldown": 2 },
+      { "Price": 2500, "Damage": 450, "Range": 20, "Cooldown": 1.5 },
+      { "Price": 4000, "Damage": 650, "Range": 25, "Cooldown": 1 }
+    ]
+  },
+  "Hawaii Endo 02": {
+    "Type": "Support",
+    "Rarity": "Epic",
+    "Image": "rbxassetid://18255863130",
+    "PlacePrice": 800,
+    "Damage": 0,
+    "Range": 15,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "0", "Cooldown": "1", "Range": "15", "RangeBoost": "1.05-1.2" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 0, "Range": 15, "Cooldown": 1, "RangeBoost": 1.05 },
+      { "Price": 1000, "Damage": 0, "Range": 15, "Cooldown": 1, "RangeBoost": 1.125 },
+      { "Price": 1500, "Damage": 0, "Range": 15, "Cooldown": 1, "RangeBoost": 1.2 }
+    ]
+  },
+  "Rad Freddy": {
+    "Type": "Single",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18258392627",
+    "PlacePrice": 800,
+    "Damage": 150,
+    "Range": 30,
+    "Cooldown": 3,
+    "TowerStats": { "Damage": "150-500", "Cooldown": "3-2", "Range": "25-45" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 150, "Range": 25, "Cooldown": 3 },
+      { "Price": 1200, "Damage": 325, "Range": 35, "Cooldown": 2.5 },
+      { "Price": 2000, "Damage": 500, "Range": 45, "Cooldown": 2 }
+    ]
+  },
+  "Leviathan Mangle": {
+    "Type": "Pierce",
+    "Rarity": "Nightmare",
+    "Image": "rbxassetid://18256011276",
+    "PlacePrice": 10000,
+    "Damage": 150,
+    "Range": 12,
+    "Cooldown": 2,
+    "TowerStats": { "Damage": "400-750", "Cooldown": "2-1", "Range": "12-20" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 400, "Range": 12, "Cooldown": 2 },
+      { "Price": 8000, "Damage": 575, "Range": 16, "Cooldown": 1.5 },
+      { "Price": 12000, "Damage": 750, "Range": 20, "Cooldown": 1 }
+    ]
+  },
+  "Patriot Freddy": {
+    "Type": "Explosion",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18326604996",
+    "PlacePrice": 300,
+    "Damage": 150,
+    "Range": 12,
+    "Cooldown": 2,
+    "TowerStats": { "Damage": "100-250", "Cooldown": "4-3.5", "Range": "15-22" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 100, "Range": 15, "Cooldown": 4 },
+      { "Price": 500, "Damage": 175, "Range": 18.5, "Cooldown": 3.75 },
+      { "Price": 800, "Damage": 250, "Range": 22, "Cooldown": 3.5 }
+    ]
+  },
+  "SpringTrap": {
+    "Type": "Pierce",
+    "Rarity": "Nightmare",
+    "Image": "rbxassetid://18356146630",
+    "PlacePrice": 300,
+    "Damage": 150,
+    "Range": 12,
+    "Cooldown": 2,
+    "TowerStats": { "Damage": "100-250", "Cooldown": "4-3.5", "Range": "15-22" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 100, "Range": 15, "Cooldown": 4 },
+      { "Price": 500, "Damage": 175, "Range": 18.5, "Cooldown": 3.75 },
+      { "Price": 800, "Damage": 250, "Range": 22, "Cooldown": 3.5 }
+    ]
+  },
+  "Endo 03": {
+    "Type": "Single",
+    "Rarity": "Epic",
+    "Image": "rbxassetid://18363471703",
+    "PlacePrice": 2000,
+    "Damage": 70,
+    "Range": 15,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "70-220", "Cooldown": "1-0.75", "Range": "15-20" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 70, "Range": 15, "Cooldown": 1 },
+      { "Price": 1500, "Damage": 145, "Range": 17.5, "Cooldown": 0.88 },
+      { "Price": 2200, "Damage": 220, "Range": 20, "Cooldown": 0.75 }
+    ]
+  },
+  "Phantom Foxy": {
+    "Type": "Single",
+    "Rarity": "Rare",
+    "Image": "rbxassetid://18356274992",
+    "PlacePrice": 800,
+    "Damage": 60,
+    "Range": 12,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "60-200", "Cooldown": "1-0.75", "Range": "15-20" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 60, "Range": 15, "Cooldown": 1 },
+      { "Price": 600, "Damage": 130, "Range": 17.5, "Cooldown": 0.88 },
+      { "Price": 900, "Damage": 200, "Range": 20, "Cooldown": 0.75 }
+    ]
+  },
+  "Phantom Chica": {
+    "Type": "Explosion",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18356356760",
+    "PlacePrice": 15000,
+    "Damage": 150,
+    "Range": 15,
+    "Cooldown": 1.5,
+    "TowerStats": { "Damage": "150-500", "Cooldown": "1.5-0.75", "Range": "15-20" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 150, "Range": 15, "Cooldown": 1.5 },
+      { "Price": 12000, "Damage": 325, "Range": 17.5, "Cooldown": 1.13 },
+      { "Price": 18000, "Damage": 500, "Range": 20, "Cooldown": 0.75 }
+    ]
+  },
+  "Phantom Freddy": {
+    "Type": "Continuous",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18363498934",
+    "PlacePrice": 15000,
+    "Damage": 17,
+    "Range": 20,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "17-35", "Cooldown": "0.05-0.05", "Range": "20-30" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 17, "Range": 20, "Cooldown": 0.05 },
+      { "Price": 12000, "Damage": 26, "Range": 25, "Cooldown": 0.05 },
+      { "Price": 18000, "Damage": 35, "Range": 30, "Cooldown": 0.05 }
+    ]
+  },
+  "Phantom Balloon Boy": {
+    "Type": "Nuke",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18356472602",
+    "PlacePrice": 7500,
+    "Damage": 500,
+    "Range": 15,
+    "Cooldown": 4,
+    "TowerStats": { "Damage": "600-1000", "Cooldown": "4-3", "Range": "15-25" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 600, "Range": 15, "Cooldown": 4 },
+      { "Price": 6000, "Damage": 800, "Range": 20, "Cooldown": 3.5 },
+      { "Price": 9000, "Damage": 1000, "Range": 25, "Cooldown": 3 }
+    ]
+  },
+  "Phantom Gold Freddy": {
+    "Type": "Single",
+    "Rarity": "Mythic",
+    "Image": "rbxassetid://18363517791",
+    "PlacePrice": 3000,
+    "Damage": 200,
+    "Range": 15,
+    "Cooldown": 1.5,
+    "TowerStats": { "Damage": "200-550", "Cooldown": "1.5-1", "Range": "15-20" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 200, "Range": 15, "Cooldown": 1.5 },
+      { "Price": 2500, "Damage": 375, "Range": 17.5, "Cooldown": 1.25 },
+      { "Price": 4000, "Damage": 550, "Range": 20, "Cooldown": 1 }
     ]
   },
   "FazCade": {
@@ -173,9 +645,293 @@
     "Range": 15,
     "Cooldown": 4,
     "Upgrades": [
-      { "Price": 0, "Income": 100, "Cooldown": 4, "Range": 0 },
-      { "Price": 800, "Income": 250, "Cooldown": 4, "Range": 0 },
-      { "Price": 1500, "Income": 500, "Cooldown": 4, "Range": 0 }
+      { "Price": 0, "Damage": 0, "Range": 15, "Cooldown": 4 },
+      { "Price": 800, "Damage": 0, "Range": 15, "Cooldown": 4 },
+      { "Price": 1500, "Damage": 0, "Range": 15, "Cooldown": 4 }
+    ]
+  },
+  "Phantom Mangle": {
+    "Type": "Continuous",
+    "Rarity": "Nightmare",
+    "Image": "rbxassetid://18363533024",
+    "PlacePrice": 20000,
+    "Damage": 30,
+    "Range": 22,
+    "Cooldown": 0.05,
+    "TowerStats": { "Damage": "30-60", "Cooldown": "0.05", "Range": "22-35" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 30, "Range": 22, "Cooldown": 0.05 },
+      { "Price": 15000, "Damage": 45, "Range": 28.5, "Cooldown": 0.05 },
+      { "Price": 25000, "Damage": 60, "Range": 35, "Cooldown": 0.05 }
+    ]
+  },
+  "Phantom Cupcake": {
+    "Type": "Single",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18363537562",
+    "PlacePrice": 1000,
+    "Damage": 100,
+    "Range": 15,
+    "Cooldown": 2,
+    "TowerStats": { "Damage": "100-250", "Cooldown": "1", "Range": "15-25" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 100, "Range": 15, "Cooldown": 1 },
+      { "Price": 800, "Damage": 175, "Range": 20, "Cooldown": 1 },
+      { "Price": 1200, "Damage": 250, "Range": 25, "Cooldown": 1 }
+    ]
+  },
+  "Amalgam": {
+    "Type": "Continuous Slow",
+    "Rarity": "Epic",
+    "Image": "rbxassetid://18363541545",
+    "PlacePrice": 2000,
+    "Damage": 0,
+    "Range": 15,
+    "Cooldown": 0.05,
+    "Upgrades": [
+      { "Price": 0, "Damage": 0, "Range": 15, "Cooldown": 0.05 },
+      { "Price": 1500, "Damage": 0, "Range": 15, "Cooldown": 0.05 },
+      { "Price": 2500, "Damage": 0, "Range": 15, "Cooldown": 0.05 }
+    ]
+  },
+  "Phantom Puppet": {
+    "Type": "Pierce",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18363546528",
+    "PlacePrice": 15000,
+    "Damage": 500,
+    "Range": 15,
+    "Cooldown": 2,
+    "TowerStats": { "Damage": "500-1100", "Cooldown": "2-1", "Range": "15-21" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 500, "Range": 15, "Cooldown": 2 },
+      { "Price": 12000, "Damage": 800, "Range": 18, "Cooldown": 1.5 },
+      { "Price": 18000, "Damage": 1100, "Range": 21, "Cooldown": 1 }
+    ]
+  },
+  "Spring Bonnie": {
+    "Type": "Support",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18364574191",
+    "PlacePrice": 1500,
+    "Damage": 0,
+    "Range": 15,
+    "Cooldown": 0,
+    "TowerStats": { "Damage": "0", "Cooldown": "0", "Range": "15", "DamageBoost": "1.1-1.2" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 0, "Range": 15, "Cooldown": 0, "DamageBoost": 1.1 },
+      { "Price": 1200, "Damage": 0, "Range": 15, "Cooldown": 0, "DamageBoost": 1.15 },
+      { "Price": 1800, "Damage": 0, "Range": 15, "Cooldown": 0, "DamageBoost": 1.2 }
+    ]
+  },
+  "Bounded Shadow": {
+    "Type": "Pierce",
+    "Rarity": "Nightmare",
+    "Image": "rbxassetid://18363555442",
+    "PlacePrice": 12000,
+    "Damage": 500,
+    "Range": 12,
+    "Cooldown": 2,
+    "TowerStats": { "Damage": "500-1400", "Cooldown": "2-1.5", "Range": "15-21" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 500, "Range": 15, "Cooldown": 2 },
+      { "Price": 10000, "Damage": 950, "Range": 18, "Cooldown": 1.75 },
+      { "Price": 15000, "Damage": 1400, "Range": 21, "Cooldown": 1.5 }
+    ]
+  },
+  "Sentinel Bonnie": {
+    "Type": "Continuous",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18363569957",
+    "PlacePrice": 4000,
+    "Damage": 25,
+    "Range": 15,
+    "Cooldown": 0.05,
+    "TowerStats": { "Damage": "25-45", "Cooldown": "0.05", "Range": "15-25" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 25, "Range": 15, "Cooldown": 0.05 },
+      { "Price": 3000, "Damage": 35, "Range": 20, "Cooldown": 0.05 },
+      { "Price": 4500, "Damage": 45, "Range": 25, "Cooldown": 0.05 }
+    ]
+  },
+  "War Machine Foxy": {
+    "Type": "Continuous",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18363581536",
+    "PlacePrice": 4000,
+    "Damage": 30,
+    "Range": 12,
+    "Cooldown": 0.05,
+    "TowerStats": { "Damage": "30-50", "Cooldown": "0.05", "Range": "15-20" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 30, "Range": 15, "Cooldown": 0.05 },
+      { "Price": 3000, "Damage": 40, "Range": 17.5, "Cooldown": 0.05 },
+      { "Price": 4500, "Damage": 50, "Range": 20, "Cooldown": 0.05 }
+    ]
+  },
+  "Sniper Cupcake": {
+    "Type": "Single",
+    "Rarity": "Rare",
+    "Image": "rbxassetid://18364281117",
+    "PlacePrice": 800,
+    "Damage": 70,
+    "Range": 30,
+    "Cooldown": 2,
+    "TowerStats": { "Damage": "70-250", "Cooldown": "3-2", "Range": "30-45" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 70, "Range": 30, "Cooldown": 3 },
+      { "Price": 1200, "Damage": 160, "Range": 37.5, "Cooldown": 2.5 },
+      { "Price": 2000, "Damage": 250, "Range": 45, "Cooldown": 2 }
+    ]
+  },
+  "Witch Toy Chica": {
+    "Type": "Poison",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18363391561",
+    "PlacePrice": 500,
+    "Damage": 100,
+    "Range": 15,
+    "Cooldown": 4,
+    "TowerStats": { "Damage": "100-250", "Cooldown": "4-2", "Range": "15-25" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 100, "Range": 15, "Cooldown": 4 },
+      { "Price": 800, "Damage": 175, "Range": 20, "Cooldown": 3 },
+      { "Price": 1200, "Damage": 250, "Range": 25, "Cooldown": 2 }
+    ]
+  },
+  "Abyssal Foxy": {
+    "Type": "Burst Slow",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18578533614",
+    "PlacePrice": 15000,
+    "Damage": 0,
+    "Range": 15,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "0-0", "Cooldown": "1-1", "Range": "15-15" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 12000, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 18000, "Damage": 0, "Range": 15, "Cooldown": 1 }
+    ]
+  },
+  "Major Freddy": {
+    "Type": "Single",
+    "Rarity": "Rare",
+    "Image": "rbxassetid://18665224476",
+    "PlacePrice": 1000,
+    "Damage": 0,
+    "Range": 18,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "0-0", "Cooldown": "1-1", "Range": "15-15" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 800, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 1200, "Damage": 0, "Range": 15, "Cooldown": 1 }
+    ]
+  },
+  "Enforcer Bonnie": {
+    "Type": "Continuous",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18673234413",
+    "PlacePrice": 10000,
+    "Damage": 0,
+    "Range": 18,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "0-0", "Cooldown": "1-1", "Range": "15-15" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 8000, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 12000, "Damage": 0, "Range": 15, "Cooldown": 1 }
+    ]
+  },
+  "Mercenary Foxy": {
+    "Type": "Continuous",
+    "Rarity": "Mythic",
+    "Image": "rbxassetid://18673129884",
+    "PlacePrice": 2500,
+    "Damage": 0,
+    "Range": 18,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "0-0", "Cooldown": "1-1", "Range": "15-15" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 2000, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 3000, "Damage": 0, "Range": 15, "Cooldown": 1 }
+    ]
+  },
+  "Cupcake Tank": {
+    "Type": "Summoner",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18673630095",
+    "PlacePrice": 2000,
+    "Damage": 0,
+    "Range": 18,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "0-0", "Cooldown": "1-1", "Range": "15-15" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 1500, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 2500, "Damage": 0, "Range": 15, "Cooldown": 1 }
+    ]
+  },
+  "Commando Endo": {
+    "Type": "Continuous",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18673468864",
+    "PlacePrice": 800,
+    "Damage": 0,
+    "Range": 10,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "0-0", "Cooldown": "1-1", "Range": "15-15" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 600, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 1000, "Damage": 0, "Range": 15, "Cooldown": 1 }
+    ]
+  },
+  "Rocketeer Mangle": {
+    "Type": "Explosion",
+    "Rarity": "Secret",
+    "Image": "rbxassetid://18673926504",
+    "PlacePrice": 5000,
+    "Damage": 0,
+    "Range": 12,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "0-0", "Cooldown": "1-1", "Range": "15-15" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 4000, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 6000, "Damage": 0, "Range": 15, "Cooldown": 1 }
+    ]
+  },
+  "Valkyrie Chica": {
+    "Type": "Continuous",
+    "Rarity": "Nightmare",
+    "Image": "rbxassetid://18673330553",
+    "PlacePrice": 5000,
+    "Damage": 0,
+    "Range": 18,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "0-0", "Cooldown": "1-1", "Range": "15-15" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 4000, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 6000, "Damage": 0, "Range": 15, "Cooldown": 1 }
+    ]
+  },
+  "Artillery Puppet": {
+    "Type": "Explosion",
+    "Rarity": "Epic",
+    "Image": "rbxassetid://18672617524",
+    "PlacePrice": 1500,
+    "Damage": 0,
+    "Range": 40,
+    "Cooldown": 1,
+    "TowerStats": { "Damage": "0-0", "Cooldown": "1-1", "Range": "15-15" },
+    "Upgrades": [
+      { "Price": 0, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 1200, "Damage": 0, "Range": 15, "Cooldown": 1 },
+      { "Price": 1800, "Damage": 0, "Range": 15, "Cooldown": 1 }
     ]
   },
   "Tarnished Spring Bonnie": {
