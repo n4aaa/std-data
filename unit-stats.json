@@ -32,9 +32,9 @@
                 "Cooldown": 1
             },
             {
-                "Price": 1250,
-                "Range": 15,
-                "Damage": 600,
+                "Price": 2250,
+                "Range": 150,
+                "Damage": 6000,
                 "Cooldown": 10.75
             }
         ]
