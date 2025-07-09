@@ -10,12 +10,12 @@
     "TowerStats": {
       "Damage": "20-3000",
       "Cooldown": "1-0.1",
-      "Range": "10-15"
+      "Range": "10-150"
     },
     "Upgrades": [
       { "Price": 0, "Damage": 20, "Cooldown": 1, "Range": 10 },
       { "Price": 250, "Damage": 25, "Cooldown": 0.9, "Range": 12 },
-      { "Price": 400, "Damage": 3000, "Cooldown": 0.1, "Range": 15 }
+      { "Price": 400, "Damage": 3000, "Cooldown": 0.1, "Range": 150 }
     ]
   },
   "Chica": {
