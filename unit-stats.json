@@ -914,9 +914,9 @@
     "Cooldown": 1,
     "TowerStats": { "Damage": "0-0", "Cooldown": "1-1", "Range": "15-15" },
     "Upgrades": [
-      { "Price": 0, "Damage": 0, "Range": 15, "Cooldown": 1 },
-      { "Price": 4000, "Damage": 0, "Range": 15, "Cooldown": 1 },
-      { "Price": 6000, "Damage": 0, "Range": 15, "Cooldown": 1 }
+      { "Price": 0, "Damage": 110, "Range": 15, "Cooldown": 1 },
+      { "Price": 4000, "Damage": 110, "Range": 15, "Cooldown": 1 },
+      { "Price": 6000, "Damage": 1110, "Range": 15, "Cooldown": 1 }
     ]
   },
   "Artillery Puppet": {
